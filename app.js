@@ -60,7 +60,7 @@ console.log(reverseWords("My dogs name is LuLu"));
 
 // Exercise 4 Section
 
-let csvData = "name,age\nJake,24\nNick,25\n,Jerry,32\nMike 50";
+let csvData = "name,age\nFrodo,50\nSam,38\nMerry,36\nPippin,26";
 
 function csvConverter(data) {
     let headers =data.slice(0, data.indexOf("\n")).split(",");
