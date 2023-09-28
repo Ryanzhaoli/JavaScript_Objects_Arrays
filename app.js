@@ -71,7 +71,7 @@ for (i = 1; i < parse.length; i++){
     const rowArray = parse[i].split(",");
     const rowObject = {
         name: rowArray[0],
-        age: rowArray[1],        
+        age: parseInt(rowArray[1]),        
     };
     dataTable.push(rowObject);
 };
